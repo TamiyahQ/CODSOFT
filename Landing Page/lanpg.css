@@ -1,0 +1,105 @@
+body{
+    background-color: black;
+}
+ 
+.heading{
+    align-content:flex-start; 
+    font-family:cursive;
+   letter-spacing: 2px;
+   color: black;
+   font-size: 30px;
+   padding-top: 10px;
+   text-shadow:  2px 2px 4px #3d3838, -2px -2px 4px #cabbbb;
+}
+
+nav{
+    display: flex;
+    width: 1330px;
+    height: 50px;
+    background: radial-gradient(circle, #146d91, #7f808a);
+    padding: 5px;
+    padding-left: 15px;
+    padding-bottom: 40px;
+    font-family:cursive;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    margin: none;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+}
+.menu a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid #063142;
+    transition: 0.4s linear;
+}
+
+.menu a:hover::before{
+    width: 90%;
+}
+.signin a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: black;
+    border-radius: 40px;
+}
+
+.container{
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    margin-top: 170px;
+    width: 210px;
+    justify-content: center;
+
+}
+.wel{
+    font-size: 35px;
+    color: white;
+    align-self: center;
+    margin-right: 500px;
+    font-family: cursive;
+}
+.sb {
+    width: 300px;
+    padding-left: 40px;
+}
+.sb input{
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.sb button{
+    margin: 12px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #146d91;
+    border: none;
+    color: black;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+.sb button:hover{
+    cursor: pointer;
+    background-color: #0f739b;
+}
+.sb input:hover{
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
