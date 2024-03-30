@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(69, 105, 105);
+}
+.container{
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    margin-top: 100px;
+    width: 510px;
+    display: flex;
+    justify-content: center;
+}
+
+.calculator{
+    background-color: grey;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    height: 410px;
+}
+
+.display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 25px;
+    height: 60px;
+}
+
+.display input{
+    text-align: right;
+    flex: 1;
+    font-family:serif;
+    font-size: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.calculator #ac{
+    margin: 20px 33px;
+    width: 400px;
+}
+.c {
+    font-size: 40px;
+    display: flex;
+    width: 70px;
+    justify-content: flex-start;
+    margin: 5px;
+    font-family:serif;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background: rgb(255, 100, 44);
+    box-shadow: -8px -8px 15px rgb(85, 87, 90), 5px 5px 15px rgb(141, 141, 141);
+}
+ .r2 input{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 40px;
+    display: inline-block;
+    width: 70px;
+    margin: 5px;
+    font-family:serif;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background: rgb(78, 78, 78);        box-shadow: -8px -8px 15px rgb(85, 87, 90), 5px 5px 15px rgb(141, 141, 141);
+
+ }
+ .r1 input{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 40px;
+    display: inline-block;
+    width: 70px;
+    margin: 5px;
+    font-family:serif;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background: rgb(78, 78, 78);        box-shadow: -8px -8px 15px rgb(85, 87, 90), 5px 5px 15px rgb(141, 141, 141);
+
+}
+ .r3 input{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 40px;
+    display: inline-block;
+    width: 70px;
+    margin: 5px;
+    font-family:serif;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background: rgb(78, 78, 78);        box-shadow: -8px -8px 15px rgb(85, 87, 90), 5px 5px 15px rgb(141, 141, 141);
+
+}
+ .r4 input{
+   
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 40px;
+    display: inline-block;
+    width: 70px;
+    margin: 5px;
+    font-family:serif;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background: rgb(78, 78, 78);     box-shadow: -8px -8px 15px rgb(85, 87, 90), 5px 5px 15px rgb(141, 141, 141);
+
+}
+
+ .c:hover{
+    cursor: pointer;
+    background-color: rgb(255, 111, 59);
+ }
+ .r1 input:hover{
+    cursor: pointer;
+    background-color: rgb(95, 95, 95)
+ }
+ .r2 input:hover{
+    cursor: pointer;
+    background-color: rgb(95, 95, 95)
+ }
+ .r3 input:hover{
+    cursor: pointer;
+    background-color: rgb(95, 95, 95)
+ }
+ .r4 input:hover{
+    cursor: pointer;
+    background-color: rgb(95, 95, 95)
+ }
